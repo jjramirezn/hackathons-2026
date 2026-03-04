@@ -19,8 +19,7 @@
       "tech": ["Alby SDK", "NWC", "LNURL", "WebLN", "Vite"],
       "status": "official",
       "submittedAt": "2026-02-28"
-    }
-  ],
+    },
     {
       "id": "proof-of-attendance-hdmp",
       "name": "Proof of Attendance (HDMP)",
