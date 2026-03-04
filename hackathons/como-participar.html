@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cómo participar — Lightning Hackathons 2026</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/hackathon-detail.css">
+  <style>
+    .tutorial-hero {
+      padding: 120px 0 60px;
+      background: linear-gradient(135deg, #0a0f1a 0%, #1a1a2e 50%, #16213e 100%);
+      text-align: center;
+    }
+    .tutorial-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0, 255, 157, 0.15);
+      border: 1px solid rgba(0, 255, 157, 0.3);
+      padding: 8px 16px;
+      border-radius: 50px;
+      font-size: 0.9rem;
+      color: #00ff9d;
+      margin-bottom: 20px;
+    }
+    .tutorial-title {
+      font-size: 3rem;
+      font-weight: 900;
+      margin-bottom: 15px;
+      color: #fff;
+    }
+    .tutorial-subtitle {
+      font-size: 1.3rem;
+      color: rgba(255,255,255,0.7);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .steps-section {
+      padding: 80px 0;
+      background: #0d1117;
+    }
+    .steps-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .step-card {
+      display: flex;
+      gap: 25px;
+      padding: 30px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      transition: all 0.3s ease;
+    }
+    .step-card:hover {
+      border-color: rgba(0, 255, 157, 0.3);
+      transform: translateX(10px);
+    }
+    .step-number {
+      flex-shrink: 0;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #00ff9d 0%, #00cc7d 100%);
+      color: #000;
+      font-size: 1.5rem;
+      font-weight: 900;
+      border-radius: 12px;
+    }
+    .step-content h3 {
+      font-size: 1.3rem;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    .step-content p {
+      color: rgba(255,255,255,0.7);
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+    .step-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      background: rgba(0, 255, 157, 0.1);
+      border: 1px solid rgba(0, 255, 157, 0.3);
+      border-radius: 8px;
+      color: #00ff9d;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+    .step-link:hover {
+      background: rgba(0, 255, 157, 0.2);
+    }
+    .code-block {
+      background: #000;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px;
+      padding: 15px 20px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.9rem;
+      color: #00ff9d;
+      margin: 15px 0;
+      overflow-x: auto;
+    }
+    .highlight-box {
+      background: linear-gradient(135deg, rgba(255, 200, 0, 0.1) 0%, rgba(255, 200, 0, 0.02) 100%);
+      border: 1px solid rgba(255, 200, 0, 0.3);
+      border-radius: 12px;
+      padding: 25px;
+      margin: 30px 0;
+    }
+    .highlight-box h4 {
+      color: #ffc800;
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+    .highlight-box p {
+      color: rgba(255,255,255,0.8);
+    }
+    .cta-section {
+      padding: 60px 0;
+      background: linear-gradient(180deg, #0d1117 0%, #0a0f1a 100%);
+      text-align: center;
+    }
+    .time-estimate {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0, 255, 157, 0.1);
+      padding: 8px 16px;
+      border-radius: 20px;
+      color: #00ff9d;
+      font-size: 0.9rem;
+      margin-bottom: 30px;
+    }
+    @media (max-width: 768px) {
+      .step-card { flex-direction: column; gap: 15px; }
+      .tutorial-title { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="https://lacrypta.ar" class="nav-logo" target="_blank">
+      <img src="https://raw.githubusercontent.com/lacrypta/branding/refs/heads/main/title/512-white-transparent.png" alt="La Crypta" height="32">
+    </a>
+    <div class="nav-links">
+      <a href="../index.html">Inicio</a>
+      <a href="foundations.html">FOUNDATIONS</a>
+      <button class="btn btn-nav" data-tally-open="9qDNEY" data-tally-layout="modal" data-tally-width="600">Inscribirme</button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="tutorial-hero">
+  <div class="container">
+    <div class="tutorial-badge">⚡ Tutorial rápido</div>
+    <h1 class="tutorial-title">Cómo participar</h1>
+    <p class="tutorial-subtitle">Es más fácil de lo que pensás. Claude hace el trabajo pesado.</p>
+    <div class="time-estimate">⏱️ ~15 minutos para empezar</div>
+  </div>
+</section>
+
+<!-- Steps -->
+<section class="steps-section">
+  <div class="container">
+    <div class="steps-grid">
+      
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h3>Descargá Claude Code</h3>
+          <p>Claude Code es tu asistente de programación. Te va a guiar en todo el proceso, desde la idea hasta el proyecto terminado.</p>
+          <a href="https://claude.ai/download" target="_blank" class="step-link">
+            Descargar Claude →
+          </a>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h3>Activá el plan Pro ($20/mes)</h3>
+          <p>Necesitás el plan Pro para usar Claude Code. Son ~$20 USD/mes. Vale cada centavo para lo que vas a construir.</p>
+          <div class="highlight-box">
+            <h4>💡 Tip</h4>
+            <p>El premio del primer puesto es 1,000,000 sats (~$600 USD). La inversión se recupera fácil.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h3>Abrí Claude Code y escribí esto</h3>
+          <p>En la app de Claude, andá a la pestaña <strong>Code</strong> y escribí:</p>
+          <div class="code-block">clonar https://github.com/lacrypta/lightning-starter y seguir las instrucciones de CLAUDE.md</div>
+          <p>Claude va a clonar el repositorio y empezar a guiarte automáticamente.</p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">4</div>
+        <div class="step-content">
+          <h3>Pedile ideas</h3>
+          <p>Si no tenés una idea clara, pedile a Claude que te sugiera 5 opciones. Él conoce las herramientas y sabe qué proyectos funcionan bien para la hackathon.</p>
+          <div class="code-block">Sugerime 5 ideas de proyectos para la hackathon de Lightning</div>
+          <p>Elegí la que más te cope y dale seguimiento.</p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">5</div>
+        <div class="step-content">
+          <h3>Creá tu repo en GitHub</h3>
+          <p><strong>Obligatorio:</strong> Tu proyecto debe estar en un repositorio público de GitHub. Claude te puede ayudar a crearlo.</p>
+          <a href="https://github.com/new" target="_blank" class="step-link">
+            Crear repositorio →
+          </a>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">6</div>
+        <div class="step-content">
+          <h3>Preparate para presentar</h3>
+          <p>Pedile a Claude que te ayude a preparar:</p>
+          <ul style="color: rgba(255,255,255,0.7); margin: 15px 0; padding-left: 20px;">
+            <li>README con descripción clara</li>
+            <li>Landing page o demo</li>
+            <li>Pitch de 3 minutos</li>
+          </ul>
+          <div class="code-block">Ayudame a preparar el README y una landing para mi proyecto</div>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">7</div>
+        <div class="step-content">
+          <h3>Inscribite</h3>
+          <p>Cuando tengas el repo listo, pedile a Claude que te anote a la hackathon. Él sabe qué hacer.</p>
+          <div class="code-block">Anotame a la hackathon de Lightning con mi proyecto</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <h2 style="font-size: 2rem; margin-bottom: 15px; color: #fff;">¿Listo para empezar?</h2>
+    <p style="color: rgba(255,255,255,0.7); margin-bottom: 30px;">El primer paso es descargar Claude. El resto fluye solo.</p>
+    <a href="https://claude.ai/download" target="_blank" class="btn btn-primary btn-large btn-glow">
+      Descargar Claude Code ⚡
+    </a>
+    <p style="margin-top: 20px;">
+      <a href="foundations.html" style="color: rgba(255,255,255,0.5);">← Volver a FOUNDATIONS</a>
+    </p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content" style="text-align: center; padding: 40px 0;">
+      <p style="color: rgba(255,255,255,0.5);">Hecho con ⚡ por <a href="https://lacrypta.ar" target="_blank" style="color: #00ff9d;">La Crypta</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://tally.so/widgets/embed.js"></script>
+</body>
+</html>
