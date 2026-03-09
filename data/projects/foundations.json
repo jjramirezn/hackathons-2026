@@ -71,6 +71,23 @@
       "submittedAt": "2026-03-08"
     }
   ],
+   {
+      "id": "digital-card",
+      "name": "Digital card",
+      "description": "Tu tarjeta de presentación Bitcoin",
+      "team": [
+        {
+          "name": "negr0",
+          "github": "Negr087",
+          "role": "Lead Dev"
+        }
+      ],
+      "repo": "https://github.com/Negr087/digital-card",
+      "demo": "https://digitalcard-sigma.vercel.app/",
+      "tech": ["Alby SDK", "NWC", "LNURL", "WebLN", "Vite"],
+      "status": "building",
+      "submittedAt": "2026-03-08"
+    },
   "_instructions": {
     "howToAdd": "Para agregar tu proyecto, hacé un PR a este archivo agregando tu proyecto al array 'projects'.",
     "requiredFields": ["id", "name", "description", "team", "status"],
