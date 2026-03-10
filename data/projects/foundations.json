@@ -96,7 +96,7 @@
     {
       "id": "Streamsats",
       "name": "Streamsats",
-      "description": "Un juego de agilidad mental donde con micropagos por pistas dinámicas, compitiendo en tiempo real por un bote acumulado de sats.",
+      "description": "Un juego de agilidad mental y rapidez para ganar un bote acumulado de sats.",
       "team": [
         {
           "name": "Federico",
@@ -104,11 +104,11 @@
           "role": "Lead Dev"
         }
       ],
-      "repo": "https://github.com/FedericoLuque/Streamsats",
-      "demo": "",
+      "repo": "https://github.com/Streamsats/streamsats.github.io",
+      "demo": "https://streamsats.github.io/",
       "tech": ["Alby SDK", "NWC", "LNURL", "WebLN", "Vite"],
-      "status": "building",
-      "submittedAt": "2026-03-08"
+      "status": "submitted",
+      "submittedAt": "2026-03-10"
     },
     {
       "id": "hash21-shop",
